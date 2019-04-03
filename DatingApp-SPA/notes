@@ -1,0 +1,12 @@
+webpack transpiles Typescript to javascript so that it can be understood 
+by browsers 
+
+when we create a new component, it automatically added in app.module.ts 
+in @NgModule({ declarations: -->...,}), and also above after import
+
+
+to use http request to communicate with api we import "httpclientmodule" from angular/common
+and we add the import in inports
+
+
+we install bootstrap and fontawesome and refer them in styles.css

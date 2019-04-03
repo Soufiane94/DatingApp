@@ -1,0 +1,22 @@
+ configuration on startup.cs
+ //for each model we created, we put  in DataContext.cs --> Db<Model> Model(s) 
+// we then use the commmand "dotnet ef migrations add MigrationClassName" in terminal 
+// and then, to create db we use the cmd "dotnet ef database update"
+
+//we create a constructor in our main controller (ValuesController) and we pass as paremeter
+a DataContext parameter that will be stored in a private readonly DataContext property
+...
+{
+this.context = context
+}
+...
+
+we name the property _context so we get inside the constructor 
+_context = context
+
+//we turn the Actionresult into asynchronous code, using the async Task<> return type and await and listasync
+
+
+
+after setting up the angular app, and calling the api from it, we notice that the browser does not allow to show the data from 
+different source which is, in this case, localhost 4200, so we have to configure CORS, Cross Origin resource sharing in our api
