@@ -20,3 +20,16 @@ _context = context
 
 after setting up the angular app, and calling the api from it, we notice that the browser does not allow to show the data from 
 different source which is, in this case, localhost 4200, so we have to configure CORS, Cross Origin resource sharing in our api
+
+
+we create a repository pattern : we create an interface that has methods with task return type and then we create
+a concrete repositery that will implement these methods, the Repo pattern is a middleware between the persistance layer(EF) and 
+the business layer (controllers)
+
+
+we use DTO, they are classes that are simpler objects entered as paremeters that get returned or displayed
+by the view.
+
+
+ tokens in this case jwt (json webtokens) its what we're using in the login in mechanism, its an object stored in the server after the first authentication and it is given 
+back to the client for further comparison for security, also it authorizes the users against the api 
