@@ -10,3 +10,5 @@ and we add the import in inports
 
 
 we install bootstrap and fontawesome and refer them in styles.css
+
+we use RxJS operators to manipulate Observables, in this case JWTs
